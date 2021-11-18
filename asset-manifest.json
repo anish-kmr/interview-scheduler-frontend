@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/interview-scheduler-frontend/static/css/main.56cc0bc6.chunk.css",
-    "main.js": "/interview-scheduler-frontend/static/js/main.07971baa.chunk.js",
-    "main.js.map": "/interview-scheduler-frontend/static/js/main.07971baa.chunk.js.map",
+    "main.js": "/interview-scheduler-frontend/static/js/main.9f53eab9.chunk.js",
+    "main.js.map": "/interview-scheduler-frontend/static/js/main.9f53eab9.chunk.js.map",
     "runtime-main.js": "/interview-scheduler-frontend/static/js/runtime-main.193819c5.js",
     "runtime-main.js.map": "/interview-scheduler-frontend/static/js/runtime-main.193819c5.js.map",
     "static/js/2.25e35c89.chunk.js": "/interview-scheduler-frontend/static/js/2.25e35c89.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.193819c5.js",
     "static/js/2.25e35c89.chunk.js",
     "static/css/main.56cc0bc6.chunk.css",
-    "static/js/main.07971baa.chunk.js"
+    "static/js/main.9f53eab9.chunk.js"
   ]
 }
