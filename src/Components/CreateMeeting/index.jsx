@@ -48,7 +48,7 @@ const CreateMeeting = () => {
         participants: [],
     }
     console.log("state ", state);
-    if (state.id) {
+    if (state && state.id) {
         defaults = {
             ...state,
             startTime: moment(state.startTime),
@@ -187,7 +187,7 @@ const CreateMeeting = () => {
                             //     >{option.name}</p>
                             // }
                             getOptionLabel={(option) => option.name}
-                            value={form.participants}
+                            defaultValue={form.participants}
                             filterSelectedOptions
                             renderInput={(params) => (
                                 <TextField
