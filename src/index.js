@@ -10,7 +10,7 @@ import App from "Components/App"
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <App />
       </BrowserRouter>
     </ThemeProvider>

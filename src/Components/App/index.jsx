@@ -11,6 +11,7 @@ const App = () => {
     return (
         <>
             <Header />
+
             <Routes>
                 <Route exact path="/" element={<LoginPage />} />
                 <Route exact path="/login" element={<LoginPage />} />
