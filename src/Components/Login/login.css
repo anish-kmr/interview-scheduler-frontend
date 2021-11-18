@@ -1,0 +1,67 @@
+
+.login_card{
+    background-color: var(--primary);
+    border-radius: 10px;
+    min-height: 20rem;
+    width: 40rem;
+    height: max-content;
+    margin:1rem 2rem;
+    margin-bottom: 8rem;
+    padding:2rem;
+    box-shadow: 0 2px 15px #452d6d;
+    transform: translateY(6rem);
+}
+
+.login_card_heading{
+    color:var(--text-secondary);
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+
+}
+.form_input{
+    margin:2rem auto;
+    position: relative;
+}
+.input_icon{
+    position: absolute;
+    top:50%;
+    width:1.8rem !important;
+    height:1.8rem !important;
+    color: var(--text-primary);
+    transform: translateY(-50%);
+    
+}
+.input_icon_left{left:1rem}
+.input_icon_right{right:1rem;color: var(--text-tertiary);}
+.input_icon_right:hover{cursor:pointer}
+.form_input input{
+    outline:none;
+    border:1px solid #838e96;
+    border-radius: 25px;
+    width: 100%;
+    padding:1rem 2rem;
+    padding-left: 4rem;
+}
+.form_input input:focus{
+    border:1px solid var(--theme-primary);
+}
+/* .btn{margin:1rem 0 !important;} */
+
+.MuiButton-root{
+    width: 100%;
+    border-radius: 25px !important;
+}
+.MuiButton-label{
+    text-transform: none !important;
+    font-size: 1.4rem;
+}
+
+.signup_link{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-top: 1.5rem;
+    color:var(--primary-dark)
+}
+.signup_link:hover{cursor: pointer;}

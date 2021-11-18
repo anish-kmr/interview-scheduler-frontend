@@ -1,0 +1,7 @@
+{
+    "login": "/admin/login",
+    "getAdminMeetings": "/meeting/admin/",
+    "getParticipants": "/participant",
+    "createMeeting": "/meeting",
+    "updateMeeting": "/meeting/"
+}

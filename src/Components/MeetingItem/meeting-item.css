@@ -1,0 +1,37 @@
+.meeting-item{
+    width: 40rem;
+    padding:1rem 2rem;
+    background-color: #fff;
+    
+    box-shadow: 0 2px 15px #452d6d;
+}
+.meeting-heading{
+    color:var(--text-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.meeting-heading h2{
+    font-size: 2rem;
+}
+.agenda{
+    font-size: 1.2rem;
+    color: #707070;
+    margin-bottom: 2rem;
+}
+.participants-list .MuiChip-root {
+    font-size: 1.3rem !important; 
+}
+
+.meeting-time label{
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:#494949;
+    margin-bottom: 0.5rem;
+}
+.meeting-time div{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,20 @@
+
+.empty-list{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:2rem 0;
+    height:100%;
+}
+.empty-list p{
+    font-size: 1.4rem;
+    margin-bottom:2rem ;
+}
+.meeting-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:3rem
+}

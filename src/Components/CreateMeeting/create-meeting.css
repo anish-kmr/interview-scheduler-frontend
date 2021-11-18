@@ -1,0 +1,41 @@
+.create-interview-form{
+    width: 70%;
+    /* margin: 0 au; */
+}
+.form-group{
+    display: flex;
+    align-items: center;
+    gap:2rem
+}
+
+.form-icon .MuiSvgIcon-root{
+    width:2.5rem;
+    height:2.5rem;
+    color:var(--theme-primary);
+}
+
+.form-group{
+    margin: 2rem auto;
+}
+.form-group span{
+    font-size: 1.6rem;
+}
+.option-item{
+    font-size: 1.4rem;
+    padding:1rem 2rem;
+    border-bottom: 1px solid #efefef;
+}
+.option-item:hover{
+    background-color: #efefef;
+}
+
+.create-controls{
+    display: flex;
+    gap:2rem
+}
+.error-message{
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto;
+    color:#bd0000
+}

@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box !important;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Quicksand", Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 37.5em) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
+@media only screen and (max-width: 56.25em) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media only screen and (min-width: 112.5em) {
+    html {
+        font-size: 75%
+    }
+}
+
+:root {
+    --primary: #ffffff;
+    --primary-background: #f7f7f7;
+    --theme-primary:#143d59;
+    --theme-secondary:#f4b41a;
+    --tertiary: #000000; 
+    --text-primary: #2e2e2e;
+    --text-secondary: #4f515b;
+    --text-tertiary: #a5a4a4;
+}
+
+
+.page{
+    height: calc(100vh - 5rem );
+    background-color: var(--primary-background);
+    position: relative;
+}
+.page-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    padding:2rem 4rem;
+    border-bottom: 2px solid #dbdbdb;
+}
+.page-heading h2{
+    font-size: 2.2rem;
+    color:var(--text-primary)
+}
+
+.page-body{
+    padding:2rem 4rem;
+    height: calc(100% - 8rem ) ;
+    position: relative;
+}
+
+
+
+.MuiButtonBase-root {
+    font-size: 1.4rem !important;
+}
+/* Custom Theme Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    box-shadow: inset 0 0 5px grey;
+    
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 5rem;
+    background: var(--theme-primary);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #080b1d;
+}
+
+.MuiSelect-select,.MuiOutlinedInput-input, .MuiInput-root  {
+    font-size: 1.6rem !important;
+}
+
+
+/*
+    ANIMATIONS
+*/
+
+.jello-horizontal {
+	-webkit-animation: jello-horizontal 0.9s both;
+	        animation: jello-horizontal 0.9s both;
+}
+
+@keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  

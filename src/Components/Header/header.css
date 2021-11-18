@@ -1,0 +1,18 @@
+.header-container{
+    height: 5rem;
+    background-color: var(--theme-primary);
+    display: grid;
+    grid-template-columns:  minmax(25%,300px) auto;
+    align-items: center;
+    padding:0 2rem;
+    color:#efefef
+}
+.logo{
+    font-size: 2.5rem;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
